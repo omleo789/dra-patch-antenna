@@ -76,3 +76,19 @@ Files in `fabrication/` are for the PCB layer only (patch, feedline and ground).
 - An edge-launch SMA connector is used for VNA measurement.
 
 ## Repository structure
+
+- `README.md`: project overview, design and results
+- `hfss/`: Ansys HFSS project (`replica_done.aedt`)
+- `fabrication/`: DXF and Gerber files for PCB manufacturing
+- `docs/`: design summary (`Design_Summary.pdf`)
+
+## Future work
+
+- Tune a U-slot or E-shaped patch to merge the two patch modes into one band
+- Re-run the best configuration with a finite-conductivity copper boundary for efficiency and gain estimates
+- Fabricate the PCB and compare measured S11 (VNA) against simulation
+
+## Tools
+
+- Ansys HFSS 2025 R2 (Student)
+- VNA for measurement
